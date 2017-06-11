@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    color: orange;
+}
+.article {
+    display: none;
+}
+#booking {
+    display: block;
+}
+header {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    padding-left: 5%;
+}
+header h1 {
+    margin: 0px;
+    padding-top: 20px;
+    font-size: 350%;
+    display: inline-block;
+}
+header h2 {
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 200%;
+    display: inline-block;
+}
+.summary {
+    margin: 0px;
+    margin-bottom: 50px;
+    font-size: 150%;
+    padding-left: 5%;
+}
+.widget {
+    position: absolute;
+    margin: 0px;
+    top: 180px;
+    padding-left: 8%;
+    padding-right: 5%;
+}
+.preamble {
+    margin: auto;
+    width: 50%;
+    vertical-align: top;
+    text-align: center;
+}
+.preamble h3{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+h3 {
+    font-size: 150%;
+}
+.main {
+    margin-left: 5%;
+    margin-right:5%;
+}
+#resources {
+    margin: auto;
+    padding-bottom: 70px;
+}
+.meta-learning, .math-lessons {
+    display: inline-block;
+}
+button {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 50%;
+    background-color: white;
+    display: block;
+}
+button h3 {
+    margin: 0px;
+    padding: 5px;
+}
