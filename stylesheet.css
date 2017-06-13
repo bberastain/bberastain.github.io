@@ -5,86 +5,64 @@ html, body {
     padding: 0px;
     width: 100%;
     height: 100%;
-    position: relative;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-a {
-    color: orange;
-}
-.article {
-    display: none;
-}
-#booking {
-    display: block;
-}
 header {
-    margin: 0px;
-    padding: 0px;
+    box-sizing: border-box;
     color: white;
     background-color: black;
     height: 100px;
     width: 100%;
-    padding-left: 5%;
+    padding-left: 10%;
 }
-header h1 {
+h1, h2 {
     margin: 0px;
     padding-top: 20px;
     font-size: 350%;
     display: inline-block;
 }
-header h2 {
-    margin: 0px;
-    padding-top: 20px;
+h2 {
     padding-left: 30px;
     font-size: 200%;
-    display: inline-block;
 }
-.summary {
-    margin: 0px;
+#wrapper {margin: 0 10%;}
+#summary {
+    margin-top: 10px;
     margin-bottom: 50px;
     font-size: 150%;
-    padding-left: 5%;
 }
-.widget {
-    display: inline-block;
+img {
+    display: inline;
+    position: relative;
+    float: left;
     margin: 0px;
-    padding-left: 5%;
 }
-.preamble {
-    display: inline-block;
-    margin-left: 13%;
-    vertical-align: top;
-    text-align: center;
+#review {display: inline;}
+a {color: #f47503;}
+section {
+    display: none; /*close all tabs on load*/
+    border-style: dashed;
+    border-width: 5px;
+    border-color: #f47503;
+    padding: 5px;
+    background: rgba(244, 117, 3, 0.3);
 }
-.preamble h3{
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-}
-h3 {
-    font-size: 150%;
-}
-.main {
-    margin-left: 5%;
-    margin-right:5%;
+#booking {display: block; /*open booking on load*/}
+#learning {text-align: center;}
+h3 {font-size: 150%;}
+main {
     margin: 0 auto;
     width: 50%
 }
-#resources {
-    text-align: center;
-}
+#resources {text-align: center;}
 .meta-learning, .math-lessons {
     display: inline-block;
     margin: 0 auto;
 }
-li {
-    text-align: left;
-}
+li {text-align: left;}
 button {
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px auto;
     padding-top: 0px;
     padding-bottom: 0px;
     width: 100%;
