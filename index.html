@@ -8,40 +8,55 @@
     <meta name='author' content='Bruno Berastain'>
     <meta name='viewport' content='width=1024'>
     <script src='https://www.thumbtack.com/profile/widgets/scripts/?service_id=uObRbvASwKyYIQ&widget_id=profile'></script>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
     <script type='text/javascript' src='script.js'></script>
     <link rel="shortcut icon" type='image/x-icon' href="favicon.ico">
     <link rel='stylesheet' type='text/css' href='stylesheet.css'>
 </head>
 <body id='bruno-tutoring'>
-    <header role='banner'>
+    <header id='bruno' role='banner'>
         <h1>Bruno Berastain</h1>
         <h2>Private Math Tutor</h2>
     </header>
     <div id='wrapper'>
         <p id='summary'>Algebra I & II, Geometry, and Trigonometry/Pre-Calc, with a meta-learning approach</p>
-        <a class="widget ng-scope" ng-href="https://www.thumbtack.com/-San-Ramon-CA/service/2136563" target="_blank" href="https://www.thumbtack.com/-San-Ramon-CA/service/2136563"> <img style="height: 192px;width: 192px;" ng-src="https://static.thumbtackstatic.com/media/pages/profile/standard-widgets/pro-svg/orange/2015.svg" src="https://static.thumbtackstatic.com/media/pages/profile/standard-widgets/pro-svg/orange/2015.svg"></a>
-        <p id='review'>Click For Reviews</p>
+        <div id='thumbtack'>
+            <a class="widget ng-scope" ng-href="https://www.thumbtack.com/-San-Ramon-CA/service/2136563" target="_blank" href="https://www.thumbtack.com/-San-Ramon-CA/service/2136563"> <img style="height: 192px;width: 192px;" ng-src="https://static.thumbtackstatic.com/media/pages/profile/standard-widgets/pro-svg/orange/2015.svg" src="https://static.thumbtackstatic.com/media/pages/profile/standard-widgets/pro-svg/orange/2015.svg"></a>
+            <span id='review'>Click For Reviews</span>
+        </div>
+        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="bberastain"><a class="LI-simple-link" href='https://www.linkedin.com/in/bberastain?trk=profile-badge'>Bruno Berastain</a></div>
     <main>
         <article id='learning'>
             <h3>Learning How to Learn</h3>
-            <p>Why, after twelve years of schooling, do so few college students
-                <a href='https://www.washingtonpost.com/news/answer-sheet/wp/2016/09/14/a-telling-experiment-reveals-a-big-problem-among-college-students-they-dont-know-how-to-study/?utm_term=.0c57f8f66800'>
-                    know how to study</a>?</p>
-            <p>Nowhere in my K-12 education (and even throughout four years of college) did anyone clearly teach me <em>how to learn</em>.<br>
-                The role of a teacher should be to give students the tools for self improvement.<br>
-                As I continue to improve my own learning process I try to to help other people improve their's.<br>
-                The ability to learn efficiently is the most valuable skill anyone can have.
+            <p>The single most important learning skill is the ability to ask the right questions.
+                One of the most important questions is, “What’s the best way to learn?”
+                Meta-learning is the study of learning how to learn, and it’s becoming increasingly important since so few college students
+                <a href='https://www.washingtonpost.com/news/answer-sheet/wp/2016/09/14/a-telling-experiment-reveals-a-big-problem-among-college-students-they-dont-know-how-to-study/?utm_term=.0c57f8f66800'>know how to study</a>.
+                My goal is to teach students how to learn, and ultimately, how to ask the right questions.
             </p>
         </article>
+
+        <button onclick='showBooking()'><h3>Schedule a Tutoring Session</h3></button>
+        <section id='booking'>
+            <p>Located in San Ramon, California and willing to travel between Alamo and Pleasanton.
+                Email <a href='mailto:bberastain'>bberastain@gmail.com</a> or text/call me at <span>925.642.2649</span>.
+                After a brief conversation to clarify your needs we'll set an initial meeting and schedule additional sessions as necessary.
+                Last minute and on-call tutoring both available. Cancellations must be made 24 hours in advance.
+            </p>
+        </section>
 
         <button onclick='showExperience()'><h3>Experience</h3></button>
         <section id='experience'>
             <p>In 2015 I graduated from UC Santa Barbara with a major in math, a minor in science and mathematics education, and a minor in music.
-                On Staff Developent days I participated in workshops for math educators and I've attended Board of Education meetings out of curiosity about our education system.
+                While there, I worked with students in music, and acted as a teacher-aid for a high school math class.
                 As a college graduate I spent the 2016 and 2017 school years as a substitute teacher for the San Ramon Valley Unified School District.
+                On Staff Developent days I participated in workshops for math educators and I've attended Board of Education meetings out of curiosity about our education system.
+
                 In the afternoons I tutored over twenty middle school and high school students in math.
             </p>
-            <p>View my <a href='https://www.linkedin.com/in/bberastain/'>LinkedIn</a></p>
+            <p>For more information view my <a href='https://www.linkedin.com/in/bberastain/'>LinkedIn</a>
+                and for reviews view my <a href='https://www.thumbtack.com/-San-Ramon-CA/service/2136563'>Thumbtack Profile</a>.
+            </p>
         </section>
 
         <button onclick='showProcess()'><h3>Teaching Process</h3></button>
@@ -51,10 +66,13 @@
                 The assessment will be ongoing, as gaps in knowledge reveal themselves over time.
                 Over the past two years I've become familiar with some of the most common pitfalls, and I'll test for those early on.
                 Almost without fail, difficulty with advanced concepts results from incomplete understanding of more basic mathematical concepts.
-                Math builds progressively.
+                Math builds progressively, so a good foundation is crucial.
             </p>
             <p>With a clear start and end point, we then identify good study habits to utilize, and bad ones to avoid.
-                Over the course of our time together I look forward to getting feedback from students on how I can better help them learn.
+                I teach students how to break a problem into smaller problems, and how to solve each part.
+                Testing students on the material is the most important step, because it helps clarify misunderstanding before they are graded on them.
+                This process repeats itself with adjustments made as necessary.
+                Over the course of our time together I look forward to getting feedback from students on how I can better help them.
             </p>
         </section>
 
@@ -67,13 +85,37 @@
             </p>
         </section>
 
-        <button onclick='showBooking()'><h3>Schedule a Tutoring Session</h3></button>
-        <section id='booking'>
-            <p>I'm located in San Ramon, California and willing to travel between Alamo and Pleasanton.
-                Email bberastain@gmail.com or text/call me at 925.642.2649
-                so we can have a brief conversation to clarify your needs and schedule an initial meeting.
-                Last minute and on-call tutoring available for an additional fee. Cancellations must be made 24 hours in advance.
+        <button onclick='showProblem()'><h3>How to Solve Math Problems</h3></button>
+        <section id='problem'>
+            <p>Many people have a fear of math. They’ve had difficulties in the past, so they say they aren’t math people,
+                that their brain doesn’t work that way. If you look at a problem and see gibberish,
+                remember <span>Step 0: Don't panic</span>. We can break down problems into smaller,
+                easier problems, and solve one piece at a time until we arrive at our answer.
             </p>
+            <p>Too often we receive a problem and immediately begin to work on it without asking,
+                “What’s the best way to solve this problem?” If we don’t clarify the obvious,
+                we’ll often forget it. Solving any math problem is a three step process.
+            </p>
+            <ol>
+                <li><span>What's the question</span>? When a problem has multiple steps it’s easy to lose sight of the goal.
+                    I’ve seen many students do 90% of a problem and box their answer one step short. We break problems into parts to make them manageable,
+                    and as a result we sometimes forget that the answers to those smaller problems aren’t what we’re interested in.
+                    <em>Always remember the question.</em></li>
+                <li><span>What's known</span>? This includes any equations related to the problem,
+                    as well as all the information in the problem, which could include red herrings.
+                    It’s very rare for a problem to be given without enough information to solve it.
+                    More often, we forget to include equations that involve already known parts.
+                    <p>A good rule of thumb: for every unknown variable, we need one unique equation.
+                        So if we only have one equation we can only solve for one unknown, we need two unique equations
+                        to solve for two unknown variables, and so on.
+                    </p></li>
+                <li><span>Does the answer make sense</span>? Once you know all the parts of the puzzle, solving is just moving the pieces around.
+                    Helping with this process is where I do the majority of my work.
+                    Once you've solved the problem you have to compare it to the question from Step 1,
+                    and ask yourself if the answer is reasonable.</li>
+            </ol>
+            <p>To summarize: Clarify what you're solving for. Write down things that are true.
+                Move puzzle pieces around until the picture reveals itself.
         </section>
 
         <button onclick='showResources()'><h3>Resources</h3></button>

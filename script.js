@@ -43,3 +43,12 @@ function showResources() {
         x.style.display = 'block';
     }
 }
+function showProblem() {
+    var x = document.getElementById('problem');
+    if (x.style.display === 'block') {
+        x.style.display = 'none';
+    }
+    else {
+        x.style.display = 'block';
+    }
+}
