@@ -3,3 +3,9 @@ body {
   min-height: 75rem;
   padding-top: 4.5rem;
 }
+h1 {
+  text-align: center;
+}
+.col {
+  outline: 1px solid black;
+}
